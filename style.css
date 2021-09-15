@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+
+:root {
+  --primary-back: #9ca3af;
+  --primary-box: #1f2937;
+  --primary-color: #06b6d4;
+  --primary-font: 'Orbitron', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  background-color: var(--primary-back);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.container {
+  background-color: var(--primary-box);
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  width: 30vw;
+  min-height: fit-content;
+  position: relative;
+  top: 30vh;
+  left: 35vw;
+}
+
+.time {
+  padding-top: 15vh;
+}
+.date {
+  padding-bottom: 15vh;
+}
+
+.date,
+.time {
+  text-align: center;
+}
+
+.hour-and-min,
+.second,
+.ampm {
+  display: inline;
+}
+
+.hour-and-min {
+  font-size: 3rem;
+}
+
+.second {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
